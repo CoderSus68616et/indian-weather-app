@@ -107,7 +107,7 @@
         const Loader2 = ({ size = 24, className = "" }) => <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M21 12a9 9 0 1 1-6.219-8.56" /></svg>;
         const AlertCircle = ({ size = 24, className = "" }) => <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="12" cy="12" r="10" /><line x1="12" y1="8" x2="12" y2="12" /><line x1="12" y1="16" x2="12.01" y2="16" /></svg>;
 
-        // Exactly 70 Major Indian Cities
+        // 100 Major Indian Cities (expanded from 70)
         const INDIAN_CITIES = [
             "Mumbai", "Delhi", "Bengaluru", "Hyderabad", "Ahmedabad", "Chennai", "Kolkata", "Surat", "Pune", "Jaipur",
             "Lucknow", "Kanpur", "Nagpur", "Indore", "Thane", "Bhopal", "Visakhapatnam", "Pimpri-Chinchwad", "Patna", "Vadodara",
@@ -115,7 +115,10 @@
             "Srinagar", "Aurangabad", "Dhanbad", "Amritsar", "Navi Mumbai", "Allahabad", "Howrah", "Ranchi", "Gwalior", "Jabalpur",
             "Coimbatore", "Vijayawada", "Jodhpur", "Madurai", "Raipur", "Kota", "Guwahati", "Chandigarh", "Solapur", "Hubballi-Dharwad",
             "Bareilly", "Moradabad", "Mysore", "Gurugram", "Aligarh", "Jalandhar", "Tiruchirappalli", "Bhubaneswar", "Salem", "Mira-Bhayandar",
-            "Warangal", "Thiruvananthapuram", "Bhiwandi", "Saharanpur", "Guntur", "Amravati", "Bikaner", "Noida", "Jamshedpur", "Bhilai"
+            "Warangal", "Thiruvananthapuram", "Bhiwandi", "Saharanpur", "Guntur", "Amravati", "Bikaner", "Noida", "Jamshedpur", "Bhilai",
+            "Dehradun", "Haridwar", "Rishikesh", "Mussoorie", "Nainital", "Shimla", "Manali", "Dharamsala", "Leh", "Jammu",
+            "Udaipur", "Ajmer", "Kochi", "Kozhikode", "Thrissur", "Mangaluru", "Hubli", "Belgaum", "Shillong", "Gangtok",
+            "Agartala", "Imphal", "Aizawl", "Kohima", "Itanagar", "Panaji", "Silvassa", "Puducherry", "Port Blair", "Daman"
         ];
 
         const getWeatherCondition = (code) => {
